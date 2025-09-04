@@ -6,4 +6,5 @@
 * Regular Expressions https://github.com/Aditya7369/Handy-Reference-code/blob/main/Regular_Expressions.ipynb
 
 ### SQL
-* SQL 
+* SQL
+* MS SQL https://github.com/Aditya7369/Handy-Reference-code/blob/main/MSSQL.sql
