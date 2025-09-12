@@ -8,3 +8,6 @@
 ### SQL
 * SQL
 * MS SQL https://github.com/Aditya7369/Handy-Reference-code/blob/main/MSSQL.sql
+
+### linux
+* vi / vim editor https://github.com/Aditya7369/Handy-Reference-code/blob/main/vi_editor
