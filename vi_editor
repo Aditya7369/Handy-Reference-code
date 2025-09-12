@@ -1,12 +1,13 @@
-vi editor 
+
+vi/vim editor 
 
 Entering Insert Mode: 
 • i: Insert text before the current cursor position. #
 • I: Insert text at the beginning of the current line.  
 • a: Append text after the current cursor position. 
 • A: Append text at the end of the current line. 
-• o: Open a new line below the current line and enter Insert mode. 
-• O: Open a new line above the current line and enter Insert mode. 
+• o: Open a new line below the current line and enter Insert mode. # 
+• O: Open a new line above the current line and enter Insert mode. #
 • r: Replace the single character under the cursor. 
 • R: Overwrite characters from the cursor position until Esc is pressed. 
 
@@ -50,18 +51,23 @@ Replacing one string with another string:
 • :%s/old/new/gc  Replace all occurrences in the entire file, but ask for confirmation (y/n) before each replacement.
 
 Saving and Exiting (in Command mode, preceded by :): 
-• :w Save the file. 
-• :wq or ZZ: Save and quit.
+• :w Save the file. #
+• :wq or ZZ: Save and quit. #
 • :q Quit (if no changes have been made). 
-• :q! Quit without saving changes.  
-• :w filename: Save the file as filename. 
+• :q! Quit without saving changes. # 
+• :w filename: Save the file as filename. #
 
 Undoing/Redoing (in Command mode): 
-• u: Undo the last change
-• Ctrl+r: Redo the last undone change. 
+• u: Undo the last change. #
+• Ctrl+r: Redo the last undone change. #
 
 Exiting Insert Mode: 
-• Esc: Return to Command mode from insert.
+• Esc: Return to Command mode from insert. #
 
 
-#### Test Area ####
+========== Test Area ======== 
+
+Asdf jkl
+Asdfghjkl
+
+
