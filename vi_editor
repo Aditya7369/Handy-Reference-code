@@ -1,0 +1,67 @@
+vi editor 
+
+Entering Insert Mode: 
+• i: Insert text before the current cursor position. #
+• I: Insert text at the beginning of the current line.  
+• a: Append text after the current cursor position. 
+• A: Append text at the end of the current line. 
+• o: Open a new line below the current line and enter Insert mode. 
+• O: Open a new line above the current line and enter Insert mode. 
+• r: Replace the single character under the cursor. 
+• R: Overwrite characters from the cursor position until Esc is pressed. 
+
+Navigation (in Command mode): 
+• h, j, k, l: Move cursor left, down, up, right, respectively. 
+• w, b, e: Move to the beginning of the next word, beginning of the previous word, end of the current word, respectively. 
+• 0 (zero): Move to the beginning of the current line. 
+• $: Move to the end of the current line. 
+• G: Go to the last line of the file. #
+• gg: Go to the first line of the file. #
+• nG: Go to line number n. 
+• ^f: Move forward one screen. 
+• ^b: Move backward one screen. 
+• ^d: Move forward half a screen. 
+• ^u: Move backward half a screen. 
+
+Deletion (in Command mode): 
+• x: Delete the character under the cursor. #
+• dd: Delete the current line. #
+• ndd: Delete n lines from the current line. 
+• D: Delete from the cursor to the end of the line. #
+
+Copy and Paste (in Command mode): 
+• yy: Yank (copy) the current line. #
+• nyy: Yank (copy) n lines from the current line. 
+• yw: Yank (copy) the current word. 
+• p: Paste the yanked text below the current line. #
+• P: Paste the yanked text above the current line. 
+
+Searching (in Command mode): 
+• /pattern: Search forward for pattern. #
+• ?pattern: Search backward for pattern. 
+• n: Repeat the last search in the same direction. 
+• N: Repeat the last search in the opposite direction. 
+
+Replacing one string with another string:
+• :s/old/new/     Replace first occurrence in the current line.
+• :s/old/new/g    Replace all occurrences in the current line.
+• :%s/old/new/    Replace first occurrence in the entire file.
+• :%s/old/new/g   Replace all occurrences in the entire file. #
+• :%s/old/new/gc  Replace all occurrences in the entire file, but ask for confirmation (y/n) before each replacement.
+
+Saving and Exiting (in Command mode, preceded by :): 
+• :w Save the file. 
+• :wq or ZZ: Save and quit.
+• :q Quit (if no changes have been made). 
+• :q! Quit without saving changes.  
+• :w filename: Save the file as filename. 
+
+Undoing/Redoing (in Command mode): 
+• u: Undo the last change
+• Ctrl+r: Redo the last undone change. 
+
+Exiting Insert Mode: 
+• Esc: Return to Command mode from insert.
+
+
+#### Test Area ####
