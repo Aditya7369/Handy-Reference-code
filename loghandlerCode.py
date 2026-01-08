@@ -1,7 +1,10 @@
+#======================================================================
 import logging
 
 # Set up logging to output to a file and the console
-logging.basicConfig(filename='MylogFile.log', level=logging.DEBUG,
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_file_path = os.path.join(script_dir, "MylogFile.log")
+logging.basicConfig(filename=log_file_path, level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Create a console handler and set its level to INFO
@@ -21,3 +24,5 @@ logging.info('This is an info message')
 logging.warning('This is a warning message')
 logging.error('This is an error message')
 logging.critical('This is a critical message')
+#======================================================================
+
